@@ -1,0 +1,23 @@
+{
+  "name": "responsive-dropdown",
+  "version": "0.0.1",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/responsive-dropdown.umd.js",
+  "module": "./dist/responsive-dropdown.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/responsive-dropdown.es.js",
+      "require": "./dist/responsive-dropdown.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "vite": "^3.0.7"
+  }
+}
